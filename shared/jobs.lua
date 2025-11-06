@@ -86,4 +86,15 @@ RSGShared.Jobs = {
         },
     },
 
+    -- New jobs
+    admin = {
+        label = 'Admin',
+        type = 'admin',
+        defaultDuty = false,
+        offDutyPay = false,
+        grades = {
+            ['0'] = { name = 'Admin', payment = 0 },
+        },
+    },
+
 }

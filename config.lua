@@ -6,7 +6,7 @@ RSGConfig.UpdateInterval = 5                             -- how often to save pl
 RSGConfig.HidePlayerNames = true
 
 RSGConfig.Money = {}
-RSGConfig.Money.MoneyTypes = { cash = 50, bank = 0, valbank = 0, rhobank = 0, blkbank = 0, armbank = 0, bloodmoney = 0 } -- type = startamount - Add or remove money types for your server (for ex. blackmoney = 0), remember once added it will not be removed from the database!
+RSGConfig.Money.MoneyTypes = { cash = 200, bank = 0, valbank = 0, rhobank = 0, blkbank = 0, armbank = 0, bloodmoney = 0 } -- type = startamount - Add or remove money types for your server (for ex. blackmoney = 0), remember once added it will not be removed from the database!
 RSGConfig.Money.DontAllowMinus = { 'cash', 'bloodmoney' }            -- Money that is not allowed going in minus
 RSGConfig.Money.MinusLimit = -5000                                   -- The maximum amount you can be negative 
 RSGConfig.Money.PayCheckTimeOut = 10                                 -- The time in minutes that it will give the paycheck
@@ -82,8 +82,18 @@ RSGConfig.Player.PlayerDefaults = {
     },
     position = RSGConfig.DefaultSpawn,
     items = {},
-    weight = 35000,
-    slots = 25,
+    weight = 45000,
+    slots = 40,
+}
+
+-- Update existing characters with new default values on login
+RSGConfig.Player.UpdateDefaults = {
+    weight = 45000,  -- Update weight limit for existing characters
+    slots = 40,      -- Update slot count for existing characters
+    -- Add any other fields you want to update for existing characters
+    -- metadata = {
+    --     newfield = 'newvalue'
+    -- }
 }
 
 RSGConfig.Server = {}                                    -- General server config

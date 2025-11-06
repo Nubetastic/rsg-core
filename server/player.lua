@@ -90,6 +90,17 @@ local function applyDefaults(playerData, defaults)
     end
 end
 
+-- Custom playuer stat update
+local function applyUpdates(playerData, updates)
+    for key, value in pairs(updates) do
+        if type(value) == 'table' and type(playerData[key]) == 'table' then
+            applyUpdates(playerData[key], value)
+        else
+            playerData[key] = value
+        end
+    end
+end
+
 function RSGCore.Player.CheckPlayerData(source, PlayerData)
     PlayerData = PlayerData or {}
     local Offline = not source
@@ -145,6 +156,11 @@ function RSGCore.Player.CheckPlayerData(source, PlayerData)
     end
 
     applyDefaults(PlayerData, RSGCore.Config.Player.PlayerDefaults)
+
+     -- Apply updates for existing characters
+    if RSGCore.Config.Player.UpdateDefaults then
+        applyUpdates(PlayerData, RSGCore.Config.Player.UpdateDefaults)
+    end
 
     if GetResourceState('rsg-inventory') ~= 'missing' then
         PlayerData.items = exports['rsg-inventory']:LoadInventory(PlayerData.source, PlayerData.citizenid)
@@ -699,4 +715,4 @@ function RSGCore.Player.CreateSerialNumber()
     return RSGCore.Player.CreateSerialNumber()
 end
 
-PaycheckInterval() -- This starts the paycheck system
+-- PaycheckInterval() -- This starts the paycheck system
