@@ -83,17 +83,7 @@ RSGConfig.Player.PlayerDefaults = {
     position = RSGConfig.DefaultSpawn,
     items = {},
     weight = 45000,
-    slots = 40,
-}
-
--- Update existing characters with new default values on login
-RSGConfig.Player.UpdateDefaults = {
-    weight = 45000,  -- Update weight limit for existing characters
-    slots = 40,      -- Update slot count for existing characters
-    -- Add any other fields you want to update for existing characters
-    -- metadata = {
-    --     newfield = 'newvalue'
-    -- }
+    slots = 25,
 }
 
 RSGConfig.Server = {}                                    -- General server config
@@ -103,7 +93,6 @@ RSGConfig.Server.Uptime = 0                              -- Time the server has 
 RSGConfig.Server.Whitelist = false                       -- Enable or disable whitelist on the server
 RSGConfig.Server.WhitelistPermission = 'admin'           -- Permission that's able to enter the server when the whitelist is on
 RSGConfig.Server.PVP = true                              -- Enable or disable pvp on the server (Ability to shoot other players)
-RSGConfig.EnablePVP = true
 RSGConfig.Server.Discord = ''                            -- Discord invite link
 RSGConfig.Server.CheckDuplicateLicense = true            -- Check for duplicate rockstar license on join
 RSGConfig.Server.Permissions = { 'god', 'admin', 'mod' } -- Add as many groups as you want here after creating them in your server.cfg

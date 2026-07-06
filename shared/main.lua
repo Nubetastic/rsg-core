@@ -6,6 +6,9 @@ local NumberCharset = {}
 RSGShared.StarterItems = {
     bread = { amount = 5, item = 'bread' },
     water = { amount = 5, item = 'water' },
+    weapon_revolver_cattleman = { amount = 1, item = 'weapon_revolver_cattleman' },
+    ammo_box_revolver = { amount = 10, item = 'ammo_box_revolver' },
+    weapon_melee_knife = { amount = 1, item = 'weapon_melee_knife' },
 }
 
 for i = 48, 57 do NumberCharset[#NumberCharset + 1] = string.char(i) end
