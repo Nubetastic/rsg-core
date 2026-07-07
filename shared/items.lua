@@ -315,4 +315,30 @@ RSGShared.Items = {
     r_bill_stacks_large  = {name = 'r_bill_stacks_large',  label = 'Large Stack of Bills', weight = 100, type = 'item', image = 'bill_stacks_large.png', unique = false, useable = false, description = 'A large stack of money'},
     r_gold_bar           = {name = 'r_gold_bar',  label = 'Large Gold Bar', weight = 5000, type = 'item', image = 'resource_gold_bar.png', unique = false, useable = false, description = 'That is a lot of gold!'},
 
+    -- RSG WAGONMAKER MATERIALS
+    wood_log     = { name = 'wood_log',     label = 'Wood Log',     weight = 500, type = 'item', image = 'wood_log.png',     unique = false, useable = false, shouldClose = false, combinable = nil, description = 'Sturdy timber for wagon frame construction' },
+    iron_parts   = { name = 'iron_parts',   label = 'Iron Parts',   weight = 300, type = 'item', image = 'iron_parts.png',   unique = false, useable = false, shouldClose = false, combinable = nil, description = 'Metal fittings and hardware for wagon assembly' },
+    steel_plate = { name = 'steel_plate',  label = 'Steel Plate',  weight = 400, type = 'item', image = 'steel_plate.png',  unique = false, useable = false, shouldClose = false, combinable = nil, description = 'Reinforced steel sheets for heavy-duty wagons' },
+    wagon_wheel  = { name = 'wagon_wheel',  label = 'Wagon Wheel',  weight = 800, type = 'item', image = 'wagon_wheel.png',  unique = false, useable = false, shouldClose = false, combinable = nil, description = 'Pre-crafted wooden wheel with iron rim' },
+    leather      = { name = 'leather',      label = 'Leather',      weight = 50,  type = 'item', image = 'leather.png',      unique = false, useable = false, shouldClose = false, combinable = nil, description = 'Tanned hide for seats and wagon covers' },
+    rope         = { name = 'rope',         label = 'Rope',         weight = 100, type = 'item', image = 'rope.png',         unique = false, useable = false, shouldClose = false, combinable = nil, description = 'Hemp rope for securing cargo and rigging' },
+    nails       = { name = 'nails',        label = 'Nails',        weight = 10,  type = 'item', image = 'nails.png',        unique = false, useable = false, shouldClose = false, combinable = nil, description = 'Iron nails for wagon construction' },
+    paint        = { name = 'paint',        label = 'Paint',        weight = 200, type = 'item', image = 'paint.png',        unique = false, useable = false, shouldClose = false, combinable = nil, description = 'Wood stain and paint for finishing wagons' },
+
+    -----------------------------------------------
+    -- Nt_Trader
+    -----------------------------------------------
+
+    t_hay   = { name = 't_hay', label = 'Hay', weight = 10000, type = 'item', image = 'hay.png', unique = false, useable = false, shouldClose = false, combinable = nil, description = 'Hay trade good' },
+    t_cedar_lumber   = { name = 't_cedar_lumber', label = 'Cedar Lumber', weight = 10000, type = 'item', image = 'lumber_cedar_hardwood.png', unique = false, useable = false, shouldClose = false, combinable = nil, description = 'Cedar lumber trade good' },
+    t_maple_lumber   = { name = 't_maple_lumber', label = 'Maple Lumber', weight = 10000, type = 'item', image = 'lumber_maple_hardwood.png', unique = false, useable = false, shouldClose = false, combinable = nil, description = 'Maple lumber trade good' },
+    t_oak_lumber   = { name = 't_oak_lumber', label = 'Oak Lumber', weight = 10000, type = 'item', image = 'lumber_oak_hardwood.png', unique = false, useable = false, shouldClose = false, combinable = nil, description = 'Oak lumber trade good' },
+    t_pine_lumber   = { name = 't_pine_lumber', label = 'Pine Lumber', weight = 10000, type = 'item', image = 'lumber_pine_hardwood.png', unique = false, useable = false, shouldClose = false, combinable = nil, description = 'Pine lumber trade good' },
+    t_coal_bag   = { name = 't_coal_bag', label = 'Bag of Coal', weight = 10000, type = 'item', image = 'resource_bag_coal.png', unique = false, useable = false, shouldClose = false, combinable = nil, description = 'Bag of coal trade good' },
+    t_cotton   = { name = 't_cotton', label = 'Cotton', weight = 10000, type = 'item', image = 'herb_cotton.png', unique = false, useable = false, shouldClose = false, combinable = nil, description = 'Cotton trade good' },
+    t_oranges_box   = { name = 't_oranges_box', label = 'Box of Oranges', weight = 10000, type = 'item', image = 'resource_box_oranges.png', unique = false, useable = false, shouldClose = false, combinable = nil, description = 'Box of oranges trade good' },
+    t_corn_box   = { name = 't_corn_box', label = 'Box of Corn', weight = 10000, type = 'item', image = 'resource_box_corn.png', unique = false, useable = false, shouldClose = false, combinable = nil, description = 'Box of corn trade good' },
+    t_tobacco_leaves   = { name = 't_tobacco_leaves', label = 'Tobacco Leaves', weight = 10000, type = 'item', image = 'tobacco_leaf.png', unique = false, useable = false, shouldClose = false, combinable = nil, description = 'Tobacco leaves trade good' },
+    t_apples   = { name = 't_apples', label = 'Apples', weight = 10000, type = 'item', image = 'basket_apples.png', unique = false, useable = false, shouldClose = false, combinable = nil, description = 'Apples trade good' },
+
 }
