@@ -394,7 +394,10 @@ RSGShared.Items = {
     h_snake_skin         = { name = 'h_snake_skin',       label = 'Snake Skin',             weight = 100,   type = 'item', image = 'resource_snake_skin_boa.png',     unique = false, useable = false, description = 'A snake skin.' },
 
 
-
+	-- Note Book
+	
+	notebook = {name = 'notebook', label = 'Notebook', weight = 250,    type = 'item',    image = 'notebook.png',    unique = true,    useable = true,    shouldClose = true,    description = 'A personal notebook.'},
+	pen = {    name = 'pen',    label = 'Pen',    weight = 50,    type = 'item',    image = 'pen.png',    unique = false,    useable = false,    shouldClose = true,    description = 'A pen for writing.'},
 
 
 }
