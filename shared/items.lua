@@ -249,6 +249,7 @@ RSGShared.Items = {
     whiskey              = { name = 'whiskey',              label = 'Whiskey',             weight = 100, type = 'item', image = 'consumable_alcohol_bottle_whiskey.png',    unique = false, useable = true, shouldClose = true, description = 'It will put some hair on your chest' },
     cigar                = { name = 'cigar',                label = 'Cigar',               weight = 100, type = 'item', image = 'cigar1.png',                               unique = false, useable = true, shouldClose = true, description = 'Fancy a smoke? Then have a fancy smoke.' },
     cigarette            = { name = 'cigarette',            label = 'Cigarette',           weight = 100, type = 'item', image = 'cigarette_cheap.png',                      unique = false, useable = true, shouldClose = true, description = 'A pack of smokes.' },
+    bean_stew            = { name = 'bean_stew',            label = 'Bean Stew',           weight = 100, type = 'item', image = 'consumable_soup_bean.png',        unique = false, useable = true, decay = 120, delete = true, shouldClose = true, description = 'Warm Bean Stew' },
 
     -----------------------------------------------
     -- Stolen Items
@@ -398,6 +399,5 @@ RSGShared.Items = {
 	
 	notebook = {name = 'notebook', label = 'Notebook', weight = 250,    type = 'item',    image = 'notebook.png',    unique = true,    useable = true,    shouldClose = true,    description = 'A personal notebook.'},
 	pen = {    name = 'pen',    label = 'Pen',    weight = 50,    type = 'item',    image = 'pen.png',    unique = false,    useable = false,    shouldClose = true,    description = 'A pen for writing.'},
-
 
 }
