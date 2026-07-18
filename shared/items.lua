@@ -11,7 +11,8 @@ RSGShared.Items = {
     -----------------------------------------------
     -- general items
     bread      = { name = 'bread',      label = 'Bread',         weight = 100, type = 'item', image = 'bread.png',      unique = false, useable = true, decay = 300, delete = true, shouldClose = true, description = 'Bread Roll' },
-    water      = { name = 'water',      label = 'Water',         weight = 100, type = 'item', image = 'water.png',      unique = false, useable = true, shouldClose = true, description = 'Drinkable Water' },
+    adminbread      = { name = 'adminbread',      label = 'Admin Bread',         weight = 0, type = 'item', image = 'bread.png',      unique = false, useable = true, decay = 300, delete = true, shouldClose = true, description = 'Bread Roll' },
+	water      = { name = 'water',      label = 'Water',         weight = 100, type = 'item', image = 'water.png',      unique = false, useable = true, shouldClose = true, description = 'Drinkable Water' },
     stew       = { name = 'stew',       label = 'Stew',          weight = 100, type = 'item', image = 'stew.png',       unique = false, useable = true, decay = 60, delete = true, shouldClose = true, description = 'Warm Stew' },
     beer       = { name = 'beer',       label = 'Beer',          weight = 100, type = 'item', image = 'beer.png',       unique = false, useable = true, shouldClose = true, description = 'Best beer in town' },
     coffee     = { name = 'coffee',     label = 'Coffee',        weight = 100, type = 'item', image = 'coffee.png',     unique = false, useable = true, decay = 10, delete = true, shouldClose = true, description = 'Hot Coffee' },
