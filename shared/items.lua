@@ -9,10 +9,11 @@ RSGShared.Items = {
     -----------------------------------------------
     -- CORE ITEMS
     -----------------------------------------------
+    adminbread      = { name = 'adminbread',      label = 'Admin Bread',         weight = 0, type = 'item', image = 'bread.png',      unique = false, useable = true, delete = true, shouldClose = true, description = 'Bread Roll' },
+
     -- general items
     bread      = { name = 'bread',      label = 'Bread',         weight = 100, type = 'item', image = 'bread.png',      unique = false, useable = true, decay = 300, delete = true, shouldClose = true, description = 'Bread Roll' },
-    adminbread      = { name = 'adminbread',      label = 'Admin Bread',         weight = 0, type = 'item', image = 'bread.png',      unique = false, useable = true, delete = true, shouldClose = true, description = 'Bread Roll' },
-	water      = { name = 'water',      label = 'Water',         weight = 100, type = 'item', image = 'water.png',      unique = false, useable = true, shouldClose = true, description = 'Drinkable Water' },
+    water      = { name = 'water',      label = 'Water',         weight = 100, type = 'item', image = 'water.png',      unique = false, useable = true, shouldClose = true, description = 'Drinkable Water' },
     stew       = { name = 'stew',       label = 'Stew',          weight = 100, type = 'item', image = 'stew.png',       unique = false, useable = true, decay = 60, delete = true, shouldClose = true, description = 'Warm Stew' },
     beer       = { name = 'beer',       label = 'Beer',          weight = 100, type = 'item', image = 'beer.png',       unique = false, useable = true, shouldClose = true, description = 'Best beer in town' },
     coffee     = { name = 'coffee',     label = 'Coffee',        weight = 100, type = 'item', image = 'coffee.png',     unique = false, useable = true, decay = 10, delete = true, shouldClose = true, description = 'Hot Coffee' },
@@ -55,6 +56,7 @@ RSGShared.Items = {
     -- MoneyItems
     dollar       = { name = 'dollar',       label = 'Dollars',              weight = 1, type = 'item', image = 'dollar.png',       unique = false, useable = false, description = 'Standard currency used for everyday transactions'},
     cent         = { name = 'cent',         label = 'Cents',                weight = 3, type = 'item', image = 'cent.png',         unique = false, useable = false, description = 'Small denomination of currency, commonly used for change'},
+    gold         = { name = 'gold',         label = 'Gold',                 weight = 0, type = 'item', image = 'gold.png',         unique = false, useable = false, description = 'Gold used as currency.' },
     blood_dollar = { name = 'blood_dollar', label = 'Bloodstained Dollars', weight = 1, type = 'item', image = 'blood_dollar.png', unique = false, useable = false, description = 'Currency tainted by violence and crime'},
     blood_cent   = { name = 'blood_cent',   label = 'Bloodstained Cents',   weight = 3, type = 'item', image = 'blood_cent.png',   unique = false, useable = false, description = 'Small change stained with the remnants of bloodshed'},
 
