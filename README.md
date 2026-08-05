@@ -19,3 +19,11 @@
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>
+
+
+
+
+
+
+	Modified from https://github.com/Rexshack-RedM/rsg-core, Nov 2025.
+	See the Git history for changes. Distributed under GNU GPLv3.
