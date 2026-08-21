@@ -96,9 +96,9 @@ RSGShared.Jobs = {
             ['0'] = { name = 'Admin', payment = 0 },
         },
     },
-    actionsMod = {
+    actionsmod = {
         label = 'Actions Mod',
-        type = 'actionsMod',
+        type = 'actionsmod',
         defaultDuty = false,
         offDutyPay = false,
         grades = {
