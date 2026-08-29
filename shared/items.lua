@@ -392,5 +392,19 @@ RSGShared.Items = {
 	
 	notebook = {name = 'notebook', label = 'Notebook', weight = 250,    type = 'item',    image = 'notebook.png',    unique = true,    useable = true,    shouldClose = true,    description = 'A personal notebook.'},
 	pen = {    name = 'pen',    label = 'Pen',    weight = 50,    type = 'item',    image = 'pen.png',    unique = false,    useable = false,    shouldClose = true,    description = 'A pen for writing.'},
+    
+    -- Moonshine
+    
+    ms_clear             = { name = 'ms_clear',             label = 'Clear Moonshine',      weight = 100, type = 'item', image = 'consumable_alcohol_moonshine.png',                   unique = false, useable = true, shouldClose = true, description = 'A bottle of clear moonshine.' },
+    ms_alaskan           = { name = 'ms_alaskan',           label = 'Alaskan Moonshine',    weight = 100, type = 'item', image = 'consumable_alcohol_moonshine_alaskan.png',           unique = false, useable = true, shouldClose = true, description = 'A bottle of Alaskan moonshine.' },
+    ms_american          = { name = 'ms_american',          label = 'American Moonshine',   weight = 100, type = 'item', image = 'consumable_alcohol_moonshine_american.png',          unique = false, useable = true, shouldClose = true, description = 'A bottle of American moonshine.' },
+    ms_apple             = { name = 'ms_apple',             label = 'Apple Moonshine',      weight = 100, type = 'item', image = 'Consumable_alcohol_moonshine_apple.png',             unique = false, useable = true, shouldClose = true, description = 'A bottle of apple moonshine.' },
+    ms_apple_crumb       = { name = 'ms_apple_crumb',       label = 'Apple Crumb Moonshine', weight = 100, type = 'item', image = 'consumable_alcohol_moonshine_apple_crumb.png',       unique = false, useable = true, shouldClose = true, description = 'A bottle of apple crumb moonshine.' },
+    ms_blackberry        = { name = 'ms_blackberry',        label = 'Blackberry Moonshine', weight = 100, type = 'item', image = 'consumable_alcohol_moonshine_blackberry.png',        unique = false, useable = true, shouldClose = true, description = 'A bottle of blackberry moonshine.' },
+    ms_peach             = { name = 'ms_peach',             label = 'Peach Moonshine',      weight = 100, type = 'item', image = 'consumable_alcohol_moonshine_peach.png',             unique = false, useable = true, shouldClose = true, description = 'A bottle of peach moonshine.' },
+    ms_plum              = { name = 'ms_plum',              label = 'Plum Moonshine',       weight = 100, type = 'item', image = 'consumable_alcohol_moonshine_plum.png',              unique = false, useable = true, shouldClose = true, description = 'A bottle of plum moonshine.' },
+    ms_raspberry         = { name = 'ms_raspberry',         label = 'Raspberry Moonshine',  weight = 100, type = 'item', image = 'consumable_alcohol_moonshine_raspberry.png',         unique = false, useable = true, shouldClose = true, description = 'A bottle of raspberry moonshine.' },
+    ms_tropical_Punch    = { name = 'ms_tropical_punch',    label = 'Tropical Punch Moonshine', weight = 100, type = 'item', image = 'consumable_alcohol_moonshine_tropical_punch.png', unique = false, useable = true, shouldClose = true, description = 'A bottle of tropical punch moonshine.' },
+    ms_wild_cider        = { name = 'ms_wild_cider',        label = 'Wild Cider Moonshine', weight = 100, type = 'item', image = 'consumable_alcohol_moonshine_wild_cider.png',        unique = false, useable = true, shouldClose = true, description = 'A bottle of wild cider moonshine.' },
 
 }
